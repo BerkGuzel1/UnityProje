@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Horse_Run_0: 315177092946676817
+      Horse_Run_1: 4737920575072004771
+      Horse_Run_2: 1316047440660441955
+      Horse_Run_3: -3678615940965841557
+      Horse_Run_4: -4831099002408019664
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
