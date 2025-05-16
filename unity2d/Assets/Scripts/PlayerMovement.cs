@@ -43,4 +43,21 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            FindObjectOfType<GameManager>().TakeDamage(1);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            FindObjectOfType<GameManager>().TakeDamage(1);
+        }
+    }
+
 }
