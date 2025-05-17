@@ -6,8 +6,8 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     public Animator animator;
 
-    float speedAmount = 5f;
-    float jumpAmount = 7f;
+    float speedAmount = 70f;
+    float jumpAmount = 60f;
 
 
     void Start()

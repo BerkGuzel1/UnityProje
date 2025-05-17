@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1cfe46f82794a5f48a74a4d1762d083c
+guid: e247a3410dbfc42dab55631c6f12552b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8704171554108901428
-    second: enemy.png_0
+      213: 297761703447499198
+    second: enemy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,24 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy.png_0
+      name: enemy_0
       rect:
         serializedVersion: 2
         x: 2
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43888ba69ed6bc870800000000000000
-      internalID: 8704171554108901428
+      spriteID: eb114b111bcd12400800000000000000
+      internalID: 297761703447499198
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      enemy.png_0: 8704171554108901428
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
