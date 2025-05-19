@@ -12,13 +12,11 @@ public class GameManager : MonoBehaviour
     public int currentHealth;
     public Image[] hearts;
 
-    public GameObject gameOverPanel; 
 
     void Start()
     {
         currentHealth = maxHealth;
         UpdateHeartsUI();
-        gameOverPanel.SetActive(false);  // Hide at start
     }
 
     void Update()
@@ -53,13 +51,6 @@ public class GameManager : MonoBehaviour
 
     void Die()
     {
-        Time.timeScale = 0f; // Pause the game
-        gameOverPanel.SetActive(true);
-    }
-
-    public void ReplayGame()
-    {
-        Time.timeScale = 1f; // Resume time
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(0);
     }
 }

@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 6593be3816e524942b2d5ffceb7bb4fb
+guid: c9d4a01da50851747b43b12e83244dc1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3111763100740622692
-    second: Horse_Idle_0
-  - first:
-      213: 6368666205656453671
-    second: Horse_Idle_1
-  - first:
-      213: -8972702074475634173
-    second: Horse_Idle_2
-  - first:
-      213: -1918351765551173753
-    second: Horse_Idle_3
+      213: -6722853627852772247
+    second: Horse_Riding_Pen_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,76 +113,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Horse_Idle_0
+      name: Horse_Riding_Pen_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 31
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c96ef2b52fbc0d4d0800000000000000
-      internalID: -3111763100740622692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Horse_Idle_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7221031eb2c026850800000000000000
-      internalID: 6368666205656453671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Horse_Idle_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 302287fa00f8a7380800000000000000
-      internalID: -8972702074475634173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Horse_Idle_3
-      rect:
-        serializedVersion: 2
-        x: 32
         y: 0
         width: 31
         height: 31
@@ -203,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78f241cab35a065e0800000000000000
-      internalID: -1918351765551173753
+      spriteID: 96ca3e2ae30a3b2a0800000000000000
+      internalID: -6722853627852772247
       vertices: []
       indices: 
       edges: []
@@ -222,11 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Horse_Idle_0: -3111763100740622692
-      Horse_Idle_1: 6368666205656453671
-      Horse_Idle_2: -8972702074475634173
-      Horse_Idle_3: -1918351765551173753
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -6,8 +6,8 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     public Animator animator;
 
-    float speedAmount = 70f;
-    float jumpAmount = 60f;
+    float speedAmount = 5f;
+    float jumpAmount = 6f;
 
 
     void Start()
@@ -20,12 +20,12 @@ public class PlayerMovement : MonoBehaviour
     {
         velocity = new Vector3(Input.GetAxis("Horizontal"), 0f);
         transform.position += velocity * speedAmount * Time.deltaTime;
-        animator.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
+        animator.SetFloat("speed", Mathf.Abs(Input.GetAxis("Horizontal")));
 
         if (Input.GetButtonDown("Jump") && Mathf.Approximately(rgb.linearVelocity.y,0))
         {
             rgb.AddForce(Vector3.up * jumpAmount, ForceMode2D.Impulse);
-            animator.SetBool("isJumping", true);
+           animator.SetBool("isJumping", true);
         }
 
         if(animator.GetBool("isJumping") && Mathf.Approximately(rgb.linearVelocity.y, 0))
