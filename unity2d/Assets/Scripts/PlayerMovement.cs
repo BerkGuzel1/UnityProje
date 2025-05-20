@@ -56,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            animator.SetTrigger("damage");
             FindObjectOfType<GameManager>().TakeDamage(1);
         }
     }

@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        score = 0;
         currentHealth = maxHealth;
         UpdateHeartsUI();
     }
