@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = "Coins: " + score;
+        scoreText.text = "Score: " + score;
     }
 
     public static void AddCoin()

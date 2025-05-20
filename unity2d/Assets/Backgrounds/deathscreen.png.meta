@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d3fad3903af9075499512114242b112d
+guid: 25699a834b53fcb40aa6107d11346c4e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7975609413823864314
-    second: start_background_0
+      213: 5118799858056794562
+    second: deathscreen_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: start_background_0
+      name: deathscreen_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60264c5ae71f05190800000000000000
-      internalID: -7975609413823864314
+      spriteID: 2c19bcfa951a90740800000000000000
+      internalID: 5118799858056794562
       vertices: []
       indices: 
       edges: []

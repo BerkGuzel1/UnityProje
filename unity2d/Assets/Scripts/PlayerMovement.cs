@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     float speedAmount = 5f;
     float jumpAmount = 6f;
+    float fallDetector = 185f;
 
 
     void Start()
@@ -31,7 +33,11 @@ public class PlayerMovement : MonoBehaviour
         if(animator.GetBool("isJumping") && Mathf.Approximately(rgb.linearVelocity.y, 0))
         {
             animator.SetBool("isJumping", false);
+        }
 
+        if (transform.position.y < fallDetector)
+        {
+            SceneManager.LoadScene(0);
         }
 
         if (Input.GetAxisRaw("Horizontal") == -1)
