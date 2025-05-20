@@ -5,7 +5,9 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rgb;
     Vector3 velocity;
-    public Animator animator;
+    public Animator animator; 
+    private float horizontalInput;
+
 
     float speedAmount = 5f;
     float jumpAmount = 6f;
@@ -64,6 +66,11 @@ public class PlayerMovement : MonoBehaviour
         {
             FindObjectOfType<GameManager>().TakeDamage(1);
         }
+    }
+
+    public bool canAttack()
+    {
+        return horizontalInput == 0;
     }
 
 }
