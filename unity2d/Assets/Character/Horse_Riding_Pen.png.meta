@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Horse_Riding_Pen_0: -6722853627852772247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

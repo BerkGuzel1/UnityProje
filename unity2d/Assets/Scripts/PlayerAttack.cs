@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
 
-    public GameObject fireballPrefab; // Inspector’dan vereceðiz
-    public Transform firePoint;       // Ateþin çýkýþ noktasý
+    public GameObject fireballPrefab; // Inspectorï¿½dan vereceï¿½iz
+    public Transform firePoint;       // Ateï¿½in ï¿½ï¿½kï¿½ï¿½ noktasï¿½
     public float fireSpeed = 10f;
     public Animator animator;
 
@@ -23,6 +23,6 @@ public class PlayerAttack : MonoBehaviour
         Rigidbody2D rb = fireball.GetComponent<Rigidbody2D>();
 
         float direction = transform.rotation.y == 0 ? 1 : -1;
-        rb.velocity = new Vector2(fireSpeed * direction, 0f);
+        rb.linearVelocity = new Vector2(fireSpeed * direction, 0f);
     }
 }
