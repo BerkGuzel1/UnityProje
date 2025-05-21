@@ -12,10 +12,13 @@ public class GameManager : MonoBehaviour
     public int currentHealth;
     public Image[] hearts;
 
-
+   
     void Start()
     {
-        score = 0;
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            score = 0;
+        }
         currentHealth = maxHealth;
         UpdateHeartsUI();
     }
@@ -51,6 +54,17 @@ public class GameManager : MonoBehaviour
     }
 
     void Die()
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            Animator anim = player.GetComponent<Animator>();
+            anim.SetTrigger("death");
+        }
+        Invoke("RestartScene", 1.5f); 
+    }
+
+    void RestartScene()
     {
         SceneManager.LoadScene("GameOver");
     }
