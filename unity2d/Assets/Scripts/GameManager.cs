@@ -52,6 +52,6 @@ public class GameManager : MonoBehaviour
 
     void Die()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("GameOver");
     }
 }

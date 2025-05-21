@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (transform.position.y < fallDetector)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("GameOver");
         }
 
         if (Input.GetAxisRaw("Horizontal") == -1)
