@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 25845509f4b0cc449b38a843fca8f213
+guid: acb307910b5e244048f686f41abce3ef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3444353623432106236
-    second: png-transparent-computer-icons-sound-icon-microphone-microphone-angle-electronics-microphone_0
+      213: 1117894018864531364
+    second: red-flag_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: png-transparent-computer-icons-sound-icon-microphone-microphone-angle-electronics-microphone_0
+      name: red-flag_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 920
-        height: 512
+        x: 16
+        y: 2
+        width: 92
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40fef72e0a23330d0800000000000000
-      internalID: -3444353623432106236
+      spriteID: 4a744f2ffae838f00800000000000000
+      internalID: 1117894018864531364
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      png-transparent-computer-icons-sound-icon-microphone-microphone-angle-electronics-microphone_0: -3444353623432106236
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
